@@ -13,12 +13,14 @@ export default {
         sans: ["Inter", "system-ui"],
       },
       colors: {
+        // CUSTOM: Changed to vibrant cyan/blue for visibility!
         primary:
-          "light-dark(oklch(49.12% 0.3096 285.75), oklch(65.69% 0.196 285.75))",
+          "light-dark(oklch(55% 0.25 210), oklch(70% 0.20 210))",
         "primary-content":
-          "light-dark(oklch(0.89824 0.06192 285.75), oklch(0.13138 0.0392 285.75))",
+          "light-dark(white, oklch(0.13138 0.0392 210))",
+        // CUSTOM: Changed to orange for contrast
         secondary:
-          "light-dark(oklch(69.71% 0.329 342.55), oklch(74.8% 0.26 342.55))",
+          "light-dark(oklch(70% 0.25 40), oklch(75% 0.22 40))",
         accent:
           "light-dark(oklch(76.76% 0.184 183.61), oklch(74.51% 0.167 183.61))",
         "base-content": "light-dark(#1f2937, #A6ADBB)",
